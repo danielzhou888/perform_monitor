@@ -4,9 +4,11 @@
 
 ![](/assets/import3.png)
 
-
-
 iostat -x
 
 ![](/assets/import4.png)
+
+iostat -d 2 3
+
+![](/assets/import5.png)
 
