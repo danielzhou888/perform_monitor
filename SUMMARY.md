@@ -1,9 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [性能监控工具](chapter1.md)
-  * [top命令](chapter1/topming-ling.md)
-  * [vmstat命令](chapter1/vmstatming-ling.md)
-  * [iostat命令](chapter1/iostatming-ling.md)
-  * [pidstat](pidstat.md)
+* [iostat命令](chapter1/iostatming-ling.md)
+* [pidstat命令](pidstat.md)
+  * [诊断工具](pidstat/zhen-duan-gong-ju.md)
+  * [I/O监控](pidstat/iojian-kong.md)
+  * [内存监控](pidstat/nei-cun-jian-kong.md)
+* [性能监控工具](xing-neng-jian-kong-gong-ju.md)
 
