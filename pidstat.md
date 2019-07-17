@@ -1,28 +1,22 @@
-
-
-
+> 运行class文件
 
 ![](/assets/import11.png)
 
-执行jps
+> 执行jps
 
 ![](/assets/import12.png)
 
-
-
-执行pidstat -p 3618 -u 1 3
+> 执行pidstat -p 3618 -u 1 3
 
 ![](/assets/import13.png)
 
-
-
-执行pidstat -p 3618 -u 1 3 -t
+> 执行pidstat -p 3618 -u 1 3 -t
 
 ![](/assets/import14.png)
 
-发现是线程id为3636占用CPU
+> 发现是线程id为3636占用CPU
 
-导出dump
+> 导出dump
 
 > jstack -l 3618 &gt; ./t.txt
 >
