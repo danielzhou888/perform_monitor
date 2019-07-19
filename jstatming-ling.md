@@ -3,30 +3,30 @@
 #### 常用选项
 
 > 基本使用语法：jstat -&lt;options&gt; \[-t\] \[-h&lt;lines&gt;\] &lt;vmid&gt; \[&lt;interval&gt; \[&lt;count&gt;\]\]
-
-> l  class \(类加载器\) 
 >
-> l  compiler \(JIT\) 
+> l  class \(类加载器\)
 >
-> l  gc \(GC堆状态\) 
+> l  compiler \(JIT\)
 >
-> l  gccapacity \(各区大小\) 
+> l  gc \(GC堆状态\)
 >
-> l  gccause \(最近一次GC统计和原因\) 
+> l  gccapacity \(各区大小\)
 >
-> l  gcnew \(新区统计\)
+> l  gccause \(最近一次GC统计和原因\)
 >
-> l  gcnewcapacity \(新区大小\)
+> l  gcnew \(新区统计\)
 >
-> l  gcold \(老区统计\)
+> l  gcnewcapacity \(新区大小\)
 >
-> l  gcoldcapacity \(老区大小\)
+> l  gcold \(老区统计\)
 >
-> l  gcpermcapacity \(永久区大小\)
+> l  gcoldcapacity \(老区大小\)
 >
-> l  gcutil \(GC统计汇总\)
+> l  gcpermcapacity \(永久区大小\)
 >
-> l  printcompilation \(HotSpot编译统计\)
+> l  gcutil \(GC统计汇总\)
+>
+> l  printcompilation \(HotSpot编译统计\)
 
 #### 参数详情
 
@@ -78,9 +78,7 @@ FGC、FGCT：Full GC次数和Full GC耗时
 GCT：GC总耗时<br><br>
 ```
 
-#### 
-
-
+#### 执行命令
 
 > jstat -gc 1896
 
