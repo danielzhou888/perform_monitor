@@ -1,6 +1,34 @@
 ## jstat命令—查看虚拟机运行时信息
 
+#### 常用选项
 
+> 基本使用语法：jstat -&lt;options&gt; \[-t\] \[-h&lt;lines&gt;\] &lt;vmid&gt; \[&lt;interval&gt; \[&lt;count&gt;\]\]
+
+> l  class \(类加载器\) 
+>
+> l  compiler \(JIT\) 
+>
+> l  gc \(GC堆状态\) 
+>
+> l  gccapacity \(各区大小\) 
+>
+> l  gccause \(最近一次GC统计和原因\) 
+>
+> l  gcnew \(新区统计\)
+>
+> l  gcnewcapacity \(新区大小\)
+>
+> l  gcold \(老区统计\)
+>
+> l  gcoldcapacity \(老区大小\)
+>
+> l  gcpermcapacity \(永久区大小\)
+>
+> l  gcutil \(GC统计汇总\)
+>
+> l  printcompilation \(HotSpot编译统计\)
+
+#### 参数详情
 
 ```
 S0C：年轻代中第一个survivor（幸存区）的容量 (字节)         
@@ -40,8 +68,6 @@ TT： 持有次数限制
 MTT ： 最大持有次数限制
 ```
 
-
-
 ```
 S0C、S1C、S0U、S1U：Survivor 0/1区容量（Capacity）和使用量（Used）
 EC、EU：Eden区容量和使用量
@@ -51,6 +77,8 @@ YGC、YGT：年轻代GC次数和GC耗时
 FGC、FGCT：Full GC次数和Full GC耗时
 GCT：GC总耗时<br><br>
 ```
+
+#### 
 
 
 
@@ -62,23 +90,15 @@ GCT：GC总耗时<br><br>
 
 ![](/assets/import24.png)
 
-
-
 > jstat -compiler 1896
 
 ![](/assets/import25.png)
-
-
 
 > jstat -gccause 1896
 
 ![](/assets/import26.png)
 
-
-
 > jstat -gcnew 1896
 
 ![](/assets/import27.png)
-
-
 
