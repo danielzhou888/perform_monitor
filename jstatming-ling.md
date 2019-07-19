@@ -75,7 +75,7 @@ OC、OU：年老代容量和使用量
 PC、PU：永久代容量和使用量
 YGC、YGT：年轻代GC次数和GC耗时
 FGC、FGCT：Full GC次数和Full GC耗时
-GCT：GC总耗时<br><br>
+GCT：GC总耗时
 ```
 
 #### 执行命令
