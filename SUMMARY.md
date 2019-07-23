@@ -12,4 +12,5 @@
   * [jstat命令](jstatming-ling.md)
 * [jinfo命令](jinfoming-ling.md)
 * [JConsole](jconsole.md)
+* [Visual VM:多合一故障处理工具](visual-vm.md)
 
