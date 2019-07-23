@@ -9,6 +9,7 @@
   * [诊断工具](pidstat/zhen-duan-gong-ju.md)
   * [I/O监控](pidstat/iojian-kong.md)
   * [内存监控](pidstat/nei-cun-jian-kong.md)
-* [jstat命令](jstatming-ling.md)
+  * [jstat命令](jstatming-ling.md)
 * [jinfo命令](jinfoming-ling.md)
+* [JConsole](jconsole.md)
 
