@@ -1,6 +1,6 @@
 ### 远程访问：
 
-[配置jconsole远程监视 \(jconsole Remote Monitoring\)](https://www.cnblogs.com/sunxucool/archive/2012/12/18/2823221.html)
+参考：[配置jconsole远程监视 \(jconsole Remote Monitoring\)](https://www.cnblogs.com/sunxucool/archive/2012/12/18/2823221.html)
 
 > 启动：
 >
