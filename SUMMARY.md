@@ -9,8 +9,8 @@
   * [诊断工具](pidstat/zhen-duan-gong-ju.md)
   * [I/O监控](pidstat/iojian-kong.md)
   * [内存监控](pidstat/nei-cun-jian-kong.md)
-  * [jstat命令](jstatming-ling.md)
+* [jstat命令](jstatming-ling.md)
 * [jinfo命令](jinfoming-ling.md)
+* [jmap命令](jmapming-ling.md)
 * [JConsole](jconsole.md)
-* [Visual VM:多合一故障处理工具](visual-vm.md)
 
