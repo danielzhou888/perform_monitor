@@ -1,6 +1,6 @@
 # 前言
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+了解JVM，需要先做好一些基础知识的准备工作
 
 [Linux Swap的那些事](#)
 
