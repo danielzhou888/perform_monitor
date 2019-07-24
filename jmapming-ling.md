@@ -5,7 +5,6 @@
 ![](/assets/import43.png)
 
 ```
-
  num     #instances         #bytes  class name
 ----------------------------------------------
    1:           365        2378112  [I
@@ -204,7 +203,6 @@
  194:             1             16  java.lang.Terminator$1
  195:             1             16  java.net.UnknownContentHandler
 Total         23919        5216080
-
 ```
 
 **导出当前堆快照**
