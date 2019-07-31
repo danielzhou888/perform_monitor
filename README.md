@@ -8,6 +8,8 @@
 
 [Shallow heap & Retained heap](https://bjyzxxds.iteye.com/blog/1532937)
 
+[**Swap交换分区概念**](https://www.cnblogs.com/kerrycode/p/5246383.html)
+
 ### **JDK 1.8 之前**
 
 ![](/assets/~_KCPWOVO@Z%3X9PIZ{SMS1.png)
