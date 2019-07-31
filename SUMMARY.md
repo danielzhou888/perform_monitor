@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [top命令](topming-ling.md)
 * [free命令](freeming-ling.md)
+* [swapon命令](swaponming-ling.md)
 * [jps命令](jpsming-ling.md)
 * [vmstat命令](vmstatming-ling.md)
 * [iostat命令](chapter1/iostatming-ling.md)
@@ -12,5 +13,4 @@
   * [内存监控](pidstat/nei-cun-jian-kong.md)
 * [jstat命令](jstatming-ling.md)
 * [jinfo命令](jinfoming-ling.md)
-* [jmap命令](jmapming-ling.md)
 
